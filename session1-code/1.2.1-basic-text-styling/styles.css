@@ -1,0 +1,50 @@
+/* comments in css are donw like this */
+/* uncomment the properties below to see how they effect the text in the html file */
+/* then try them in combinations and altering their values */
+
+/* the following will effect all h1 elements in your html */
+
+h1{
+  /* text properties : https://www.w3schools.com/css/css_text.asp */
+  color: #ff0000; /* you can use the adobe color wheel to get the values of "HEX" colors */
+  text-align: left; 
+  /* text-align: center; */
+  /* text-align: right; */
+  text-decoration: underline;
+  /* text-decoration: line-through; */
+  text-transform: uppercase;
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; */
+  
+  /* font properties : https://www.w3schools.com/css/css_font.asp */
+  /* for web safe fonts see : https://www.w3schools.com/cssref/css_websafe_fonts.asp */
+  font-family: "Times New Roman", Times, serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-style: normal;
+  /* font-style: italic; */
+  font-size: 40px;
+  font-weight: normal;
+  /* font-weight: bold; */
+}
+
+/* these style properties will only effect h2 elements */
+h2{
+  color: #0000ff;
+  font-size: 30px;
+}
+
+/* these styles will effect links */
+a{
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+/* and this will effect the paragraph 'p' elements */
+p{
+  /* text-indent: 35px; */
+  font-size: 25px;
+  color: #888888;
+  
+  /* We can also adjust a paragraphs or other text elements line height */
+  line-height: 40px;
+}
