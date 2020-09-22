@@ -1,7 +1,7 @@
 @meta: \
 README.md \
 @created: 22/09/2020 10:23 \
-@updated: 22/09/2020 15:47 \
+@updated: 22/09/2020 15:51 \
 @tags: #t&i2 #curating-your-path
 
 
@@ -33,7 +33,7 @@ These short lectures could also be worthwhile watching over the weeks as well ht
 
 ### Download these files first. These are the files that students will be working with in class
 I will be updating these slightly so check you have the latest version before class (no major changes just tidy and comments)
-* http://127.0.0.1:3000/session1-code.zip
+*https://uts-visual-communication.github.io/curating-your-path/session1-code.zip
 
 ### The main site for you to visit and share with the students is here
 * https://uts-visual-communication.github.io/curating-your-path/
@@ -46,9 +46,8 @@ I will be updating these slightly so check you have the latest version before cl
 * the html (stands for hypertext markup language) describes the content of the page (i.e. the text, and what type of content the text is)
 * the css (stands for cascading style sheet) styles the page
 
-### Take students through the brief
-* Talk students through what is required of them (see brief)
-* Ask if they have any questions from the lecture / about the brief
+### The Brief
+* Ask if they have any questions about the brief. This should have been answered in Studio A, but there may be some lingering questions. Tell them this is a process for the web outcome and they will be guided through it. No need to know / understand the final outcome yet. Taking baby steps.
 
 ### Take them through subject tools
 * They should be using Brackets to edit their code and should be familiar with it by now.
@@ -116,4 +115,4 @@ I will be updating these slightly so check you have the latest version before cl
 * you can also see example 2.2-web-fonts-example
 
 ### First Folio Page:
-* They should use 1.2.3-basic-layout to create their first folio page. This can be started in class and worked on between classes. 
+* They should use 1.2.3-basic-layout to create their first folio page. This can be started in class and worked on between classes.
