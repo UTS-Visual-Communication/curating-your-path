@@ -1,18 +1,42 @@
+@meta: \
+README.md \
+@created: 22/09/2020 10:23 \
+@updated: 22/09/2020 12:38 \
+@tags: #t&i2 #curating-your-path
+
+
 # Introduction to The Web
 
-## Week 2: Overview of Class for 30th of July
+## session overviews
+
+### session 1:
+
+- html & css basics
+
+### session 2:
+
+- a basic responisve grid
+
+### session 3:
+
+- internal and external linking
+- bringing everything together
+
+
+## Week 2: Overview of Class for Session 1
 
 Please take a look through these overviews before class so that you are prepared. If you are not up to speed on basic web programming we suggest working through these steps in your own time.
 
 These short lectures could also be worthwhile watching over the weeks as well http://www.dontfeartheinternet.com/
 
 ### Download these files first. These are the files that students will be working with in class
+
 * https://github.com/UTS-Visual-Communication/intro-to-web-resources
 
 ### How the web works
-* get students to download the example files from GitHub (URL above)
-* then to open the index.html file that is inside 1.1-basic-web-page up in the web browser (Chrome)
-* they will see the url starts will file:// explaon that this means we are viewing the file locally i.e. the browser is reading the file that is on the computer. Just like when you open a file on your computer in any other program.
+* get students to download the example files from GitHub (URL is in the main class website and as above)
+* then to open the index.html file in Brackets
+* Then use "live preview" to look at the site.
 * get them to go to the assignment url (https://uts-visual-communication.github.io/intro-to-web/) it starts with http, explain that this means we are viewing the page over the internet. Basically when you put in a url, your computer requests files from a server that is hosting them, with this basic web page the browser interprets the html and the css files and displays it in the browser window
 * the html (stands for hypertext markup language) describes the content of the page (i.e. the text, and what type of content the text is)
 * the css (stands for cascading style sheet) styles the page
@@ -22,40 +46,26 @@ These short lectures could also be worthwhile watching over the weeks as well ht
 * Ask if they have any questions from the lecture / about the brief
 
 ### Take them through subject tools
-* we use Brackets to edit the html, Brackets is available on all of the Level 3 machines. Brackets is free they can download it on their own machines.
-* we use Google Chrome to test out our files
+* They should be using Brackets to edit their code and should be familiar with it by now.
+* Ask them what browser they use, we recommend Firefox for its stance against web tracking. But can use Chrome or other browsers if prefer to test out our files
 * get them to open the html file up in Brackets
 * go through the basic document structure
-* html (hypertext markup language) is a markup langauge
+* html (hypertext markup language) is a markup language
 * it uses ‘tags’ to describe or 'mark up' the content of the page
 * notice how there are opening tags and closing tags. Tags describe the content that is between their opening and closing
 * head tag just contains information about the file that the browser uses to understand the file and display it
 * body tag contains information about what to display in the browser window, they will be mainly changing things inside the body tags
 * look at the code and change something the h1 tags, and save the file
 * then go back to the browser and refresh it, they can see the changes
-* each time they make a change they need to save and refresh 
+* each time they make a change they need to save
 
-### Uploading a file to the server (we give them a base file) - we have a setup now that students will be using throughout their degree, will give you details on how this works.
-* You can find a PDF that overviews this process on UTSOnline see Subject Documents > Getting Your Work Online (Server Instructions)
-* We have asked for a folder to be made for each of you (these should be available from Friday, you will get an email to your UTS staff email account)
-* We also have some little tutorials on different things in the 'Web Task Tutorials' folder which the students can access or you can too!
-* Lead the students through the material that is in the PDF
-* This will take a while to heard them through this (maybe the WHOLE class)
-* Get them to upload the index.html file that is inside 1.1-basic-web-page
-* Then go to their URL and check it (make sure they are not viewing the file locally - get them to check that it starts with http)
-* Change something in their file locally and then upload again and refresh their URL
-* You don’t need to upload every time you make a change
-* Explain to them that you can work on your file and view locally, and then upload when you are happy with all of your edits
-* If you have a generous amount of time left you could take them through the Basic HTML Elements (see first section of next week)
+### Uploading a file to the server
 
-### For next week
-* Students watch out for a place/structure they want to do their web page on according to the Vanessa Berry-led categories. Recommend taking a quick snap on their smartphone when they see something of interest!
-
-
-## Week 3: Overview of Class for 6th of August
+**I am doing a video on uploading to the server. This is a task they will need to complete between this week and next.**
+* but please talk them through the notion of working locally & viweing via "live preview" and viewing as a web page.
 
 ### Basic HTML elements (i.e. h, p , img)
-* get them to drag the 1.2-basic-tags folder to the Brackets icon, this shows the whole working folder on the left hand panel of Brackets. Click on index.html
+* get them to drag the 1.1.2-basic-tags folder to the Brackets icon, this shows the whole working folder on the left hand panel of Brackets. Click on index.html
 * talk through the different html tags
 * When we have everything from a start tag to an end tag, it is is called a HTML element, some html elements have content, which is placed between the tags, some html elements like the br or img elements do not, these tags close and open in the one tag, see the img tag in the example.
 * Take a look at the img tag - and the src attribute of the tag. This looks for a image file relative to the index.html file i.e. looking inside the folder called img and find the file xxxxxxx.jpg. Web images usually jpg, png or gif. For now we can get them to stick to jpgs
@@ -65,6 +75,7 @@ These short lectures could also be worthwhile watching over the weeks as well ht
 * Go through each of the tags h1 - h6 is the hierarchy of headings, with h1 the most semantically
 * If time get them to open up 1.3-basic-visual-heirachy. HTML tage are semantic, we can see how the different tags denote what types of content the text is and creates a semantic hierarchy of information. The browser also does a basic stylised interpretation of this i.e. headings a bold and of different sizes and paragraph text is regular weight.
 * We have also given them the basic file they will be working from (1.4-page-with-copy-text).
+* They should now spend some time adding typographic heirachy to 1.1.4-page-with-copy-text
 
 ### CSS with focus on typography
 * see session.2 > 2.1-basic-text-styling, this file  shows students how they can use css to control the style of the type
@@ -76,7 +87,7 @@ These short lectures could also be worthwhile watching over the weeks as well ht
 * then show them font-family, and explain how their are common web-safe fonts available on machines
 * see this link for a list https://www.w3schools.com/cssref/css_websafe_fonts.asp
 * get them to set font-family for one of their type elements, it tries to load the first font specified in this list, and if this is not available the next one and so on. i.e. font-family: Arial, Helvetica, sans-serif; see https://www.w3schools.com/cssref/pr_font_font-family.asp
-* so you cannot just use any font available on your system, as the person looking at your web page somewhere else might not have that font on their system. we will show them how you can get around this next 
+* so you cannot just use any font available on your system, as the person looking at your web page somewhere else might not have that font on their system. we will show them how you can get around this next
 * then go through the rest of the properties in the template stylesheet provided
 * give them time to play around with these
 
@@ -136,9 +147,5 @@ Students are to select a place and create an illustration of it (they can do thi
 * Then take them through how to make a link, and how to link to each other's URLs i.e. a href=
 * They are to think about how they want to do the link i.e. is it at the bottom of the page, or is it a word in their text? And what text is used for link i.e. "Another Mystery Structure" or "Nearby you might find..."
 * If a student doesn't have a link (or have two), they can go to one of the other class rooms and link up with a student there. Please also keep a couple of URLs from your class to pass on to the next set of classes.
-* If a student doesn't have a web page, just get them to work on the 1.4-page-with-copy-text in the examples folder and quickly change the text to their heading / description and add links in here. 
+* If a student doesn't have a web page, just get them to work on the 1.4-page-with-copy-text in the examples folder and quickly change the text to their heading / description and add links in here.
 * Make sure you have time in class for them to upload their web page and check their links work.
-
-
-
-

@@ -1,133 +1,56 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<title>Text and Image II: Introduction to the Web Task</title>
-		<link rel="stylesheet" href="https://use.typekit.net/drd5jeq.css">
-        <link href="https://fonts.googleapis.com/css?family=Eczar:400,600,700|Work+Sans:400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Tenor+Sans" rel="stylesheet">
 		<style media="screen" type="text/css">
-
-            /*font-family: 'Eczar', serif;
-            font-family: 'Work Sans', sans-serif;*/
-            
-			body{
-				font-family: 'Work Sans', sans-serif;
-				background-color: rgb(220,220,220);
-				font-style: normal;
-				font-weight: 400;
-				margin: 0px;
-                font-size:18px;
-                color: blue;
-			}
-			h1 {
-                font-family: 'Eczar', serif;
-				text-align: center;
-				font-size: 2.5em;
-				margin: 0px 0px 100px 0px;
-                font-weight: 600;
-                line-height: 1.2em;
-                letter-spacing: 1px;
-			}
-			h2{
-                font-family: 'Eczar', serif;
-				margin: 50px 0px 15px 0px;
-                font-weight: 400;
-			}
-			h4{
-                font-family: 'Eczar', serif;
-				margin: 50px 0px 15px 0px;
-                font-weight: 400;
-				font-size:1em;
-			}
-            h3 {
-                text-align: center;
-                font-family: 'Eczar', serif;
-                font-weight: 400;
-                font-size: 2em;
-                margin: 0px;
-                letter-spacing: 1px;
-            }
-			p{
-				font-size:1em;
-                line-height: 1.5em;
-
-			}
-            a {
-                color: darkred;
-            }
-            li {
-                
-                margin: 0px 0px 5px 0px;
-                line-height: 1.5em;
-            }
 			main {
-				width:850px;
+				max-width:650px;
 				margin: 0px auto 0px auto;
-                padding: 70px 0px 0px 0px;
+				padding: 70px 15px 70px 15px;
 			}
-            
 		</style>
 	</head>
 	<body>
 		<main>
 			<h3>Text and Image II:</h3>
-            <h1>Introduction to <br/>the Web Task</h1>
+      <h1>Curating Your Path—responsive web folio</h1>
 			<h2>For This Task</h2>
 			<p>This brief aims to be a basic introduction to the web, how the web works and how text and image work online. We will also introduce you to your own web space that you will be able to use throughout your Visual Communication degree. Sometimes you might use this for course work. But you are also free to use this as a play space!</p>
-            		<p>AThis brief is inspired by Vanessa Berry's <a href="https://mirrorsydney.wordpress.com/"><i>Mirror Sydney</i></a> book, an alternative "map" of Sydney that considers odd, forgotten and abandoned places of the city.</p>
-			<p>You will design a simple web page that records your encounter with a place in Sydney. You are asked to make an illustration of that place or structure and to write a brief description of your encounter (1 paragraph minimum - 2 paragraph maximim). Your description might be about the place itself, or its history, or your memories of it, or how you encountered it. We have selected some of the themes from Vanessa Berry's book that you should use as a guide as to what types of places you record. These include:</p>
-			<ul>
-				<li>Sydney Bestiary</li>
-				<li>Mystery Structures</li>
-				<li>Memorial Sites</li>
-				<li>Murals and Ghost Signs</li>
-				<li>Suburban Time</li>
-			</ul>
-<p>We will show some images of these categories in the lecture, so see the lecture slides for some guidances as to what you might consider for these categories.</p>
-			<p>We want to you to consider the typographic detailing (font, colour, size, spacing), the visual hierarchy and the combination of text and image on your web page. Your illustration of your place can be done in any form you feel comfortable, it can be hand-drawn, a collage, a tracing...</p>
 
-<p>Individually you will be creating a web site on a single place you have noticed or that you remember. But as a group (i.e. the whole of Text and Image II) you will be making your own alternative map of Sydney. As your websites will be linked with each other, meaning that a person on the web can navigate between your pages. We will help you to link between your websites with each other in class.</p>
-            
-			<h2>Requirements / How to do This Task</h2>
-			<p>We will be giving you a base file to work on that includes some basic text. Stick to the base code, and using what we teach you in class, we want you to focus on the design of the details of the page (i.e. illustration and typography). You can download the class examples and the base file to work from here <a href="https://github.com/UTS-Visual-Communication/intro-to-web-resources">Intro to Web Resources</a>. The base file is session.1 > 1.4-page-with-copy-text</p>
+			<p>Over the course of the rest of this semester, you will be working towards bringing the curated narrative of your year's work together into a website. This website will be designed to have your work as its main focus, with a well thought through grid underlying its design and typographic and visual heirachy that emphasis the most important aspects of your work.</p>
 
-<p>Use CSS (Cascading Style Sheets) to alter the typography of the layout. You should seek to create a visual hierarchy in the typography (i.e. using the typographic detailing such as font type, style, colour and white space)</p>
+			<p>We want to you to consider the typographic detailing (font, colour, size, spacing), the visual hierarchy and the combination of text and image on your web page. As we progress you will also implement a basic grid which will help to define more complex layouts for your pages.</p>
 
-<p>You can use the generic web safe fonts (i.e. ariel, times, verdana). But you should also aim to use web fonts. As they are free and accessible we will be using <a href="https://fonts.google.com/">Google Web Fonts</a> in class and recommend you stick to them for your assignment (for now!)</p>
-			 <p>Consider how your illustration works with your choices as regards to your typography. How do the text and image stylistically work together in terms of their visual qualities?</p>
+			<p>The webpage you are currenltly looking at is made from a single HTML file, with almost no CSS styling, but as you can see its typograpchic heirachy is well defined. As you will see this is because of the inbuilt heirachy of the HTML heading tags "h1, h2, h3, h4, h5, & h6". The code for this page is included in the files download so you can look at how it is put together. You can also do this by "inspecting" the page using your browsers inspector. (see the short video on this embedded bellow) </p>
+
+			<h2>Session 1—basic HTML, CSS & typographic heirachy</h2>
+
+			<h3>download</h3>
+			<a href="session1-code.zip">Download this weeks code files here.</a>
+
+			<p>You will be guided through these files in the studio session.<p>
+			<p>	1.1.1 - 1.1.4 guide you throught the basics of HTML</p>
+			<p>	1.2.1 - 1.2.3 guide you throught the basics of CSS</p>
+
+			<p>You can use the generic web safe fonts (i.e. ariel, times, verdana). But you should also aim to use web fonts. As they are free and accessible we will be using <a href="https://fonts.google.com/">Google Web Fonts</a> in class and recommend you stick to them for your assignment (for now!)</p>
+
 			<h2>Working on Your Design</h2>
-            <p>You can work directly with the code in order to achieve your design. Sometimes however it can be quicker to sketch out on paper what you are imagining it will look like. You can use thumbnail sketches to quickly detail the layout and visual hierarchy of your page.</p>
-            
+
+      <p>You can work directly with the code in order to achieve your design. Sometimes however it can be quicker to sketch out on paper what you are imagining it will look like. You can use thumbnail sketches to quickly detail the layout and visual hierarchy of your page.</p>
+
 			<h2>Resources to Help You Complete This Task</h2>
-            <ul>
-		<li><a href="https://docs.google.com/document/d/1loSYr-9sgBlAYZ7Hy43boR60U1XFBcgGTL7egKbQKxc/edit">How to connect/upload to server</a></li>
-		<li><a href="http://www.dontfeartheinternet.com/">Don't fear the internet.</a>Designers Jessica Hische and Russ Maschmeyer tutorials for designers who might fear the internet.</li>
-                <li><a href="https://blog.typekit.com/2011/03/17/type-study-typographic-hierarchy/">Type Study: Typographic Hierarchy.</a></li>
-                <li><a href="https://www.typewolf.com/">Type Wolf</a> Examples of what is currently trending with web type</li>
-            </ul>
-			<h2>Beyond This Task</h2>
-				<p>If you would like to learn more in your own time there are many excellent books and online tutorials that you can extend your new web knowledge with, visit <a href="http://www.dontfeartheinternet.com/">Don't Fear the Internet</a>. This is a series of short video tutorials by designers.</p>
-            <h2>Reading</h2>
-            <p><a href="http://blog.froont.com/brief-history-of-web-design-for-designers/">A brief history of web design for designers.</a> What is possible for designers online is tightly linked with technology. In this brief historical account we see the evolution of the material, and design possibilites of the web.</p>
-            <h2>FAQ</h2>
-		<h4>Can I use a photograph as my illustration?</h4>
-		<p>This is a question that is difficult to easily address. But in this case of this assignment a straight up photo of the site is not considered an illustration. But you could use a photo which you graphically treat in some way i.e. drawing over the top or collaging with it.
-		<h4>How many images am I allowed to include in the site i.e. multiple images of the same thing with different angles? Just one image?</h4>
-		<p>The brief is to include a single illustration on the page. This is not to say that your single illustration couldn't depict your site from many angles...</p>
-		<h4>How should I interpret the themes?</h4>
-		<p>You are free to interpret the themes broadly however you wish, there is no 'correct way' of interpretation. But in case you need it:</p>
-		<ul>
-			<li><b>Mystery Sites</b><br/>
-Any building, site, sculpture, location that you have seen in Sydney that you or others wonder "what is that?". It's a mystery!</li>
-			<li><b>Sydney Bestiary</b><br/>
-Any site that includes animals in any way. It could be an animal sculpture or a building that has animal frescos, or an animal sign. Or a structure or thing that reminds you of an animal.
-</li>
-			<li><b>Suburban Time</b><br/>
-This could be anything that marks time in the city. It could be a clock on a building, or a shadow at a certain time of day, or how a set of steps has worn away from people walking on it over the years.</li>
-			<li><b>Murals and Ghost Signs</b><br/>Murals, grafitti, signs that still exist but are from another time.</li>
-			<li><b>Memorial Sites</b><br/>Any sites that memorialise something (i.e. an actual memorial) or are memorialised (i.e. they are preserved in some way, such as a shop that has stayed the same and preserves a sense of another time/era)</li>
-		</ul>
-				
+
+      <ul>
+				<li><a href="https://docs.google.com/document/d/1loSYr-9sgBlAYZ7Hy43boR60U1XFBcgGTL7egKbQKxc/edit">How to connect/upload to server</a></li>
+				<li><a href="http://www.dontfeartheinternet.com/">Don't fear the internet.</a>Designers Jessica Hische and Russ Maschmeyer tutorials for designers who might fear the internet.</li>
+        <li><a href="https://www.typewolf.com/">Type Wolf</a> Examples of what is currently trending with web type</li>
+				<li><a href="http://blog.froont.com/brief-history-of-web-design-for-designers/">A brief history of web design for designers.</a> What is possible for designers online is tightly linked with technology. In this brief historical account we see the evolution of the material, and design possibilites of the web.</li>
+      </ul>
+
+			<h2>For next week</h2>
+
 		</main>
 	</body>
 </html>
