@@ -1,7 +1,7 @@
 @meta: \
 README.md \
 @created: 22/09/2020 10:23 \
-@updated: 22/09/2020 12:38 \
+@updated: 22/09/2020 15:45 \
 @tags: #t&i2 #curating-your-path
 
 
@@ -9,35 +9,40 @@ README.md \
 
 ## session overviews
 
-### session 1:
+### session 1 (week 8):
 
 - html & css basics
 
-### session 2:
+### session 2 (week 9):
 
 - a basic responisve grid
 
-### session 3:
+### Chance & Choice virtual world (week 10)
+
+### session 3 (week 11):
 
 - internal and external linking
 - bringing everything together
 
 
-## Week 2: Overview of Class for Session 1
+## Session 1 (week 8): Overview of Class for Session 1
 
 Please take a look through these overviews before class so that you are prepared. If you are not up to speed on basic web programming we suggest working through these steps in your own time.
 
 These short lectures could also be worthwhile watching over the weeks as well http://www.dontfeartheinternet.com/
 
 ### Download these files first. These are the files that students will be working with in class
+I will be updating these slightly so check you have the latest version before class (no major changes just tidy and comments)
+* http://127.0.0.1:3000/session1-code.zip
 
-* https://github.com/UTS-Visual-Communication/intro-to-web-resources
+### The main site for you to visit and share with the students is here
+* https://uts-visual-communication.github.io/curating-your-path/
 
 ### How the web works
 * get students to download the example files from GitHub (URL is in the main class website and as above)
 * then to open the index.html file in Brackets
 * Then use "live preview" to look at the site.
-* get them to go to the assignment url (https://uts-visual-communication.github.io/intro-to-web/) it starts with http, explain that this means we are viewing the page over the internet. Basically when you put in a url, your computer requests files from a server that is hosting them, with this basic web page the browser interprets the html and the css files and displays it in the browser window
+* get them to go to the assignment url (https://uts-visual-communication.github.io/curating-your-path/) it starts with http, explain that this means we are viewing the page over the internet. Basically when you put in a url, your computer requests files from a server that is hosting them, with this basic web page the browser interprets the html and the css files and displays it in the browser window
 * the html (stands for hypertext markup language) describes the content of the page (i.e. the text, and what type of content the text is)
 * the css (stands for cascading style sheet) styles the page
 
@@ -111,41 +116,3 @@ These short lectures could also be worthwhile watching over the weeks as well ht
 * you can also see example 2.2-web-fonts-example
 
 ### For Next Week:
-Students are to select a place and create an illustration of it (they can do this anyway, hand-drawn, traced, a collage - and keep it simple!) and bring it in for next week. They should bring a print out of this for next week.
-
-## Week 4: Overview of Class for 13th of August
-
-### What have you illustrated?
-* Get students into groups of about 4
-* Get them to 'pin-up' their illustrations
-* Share what their place is, what category is it? Why do they think it is interesting - what will they write about it?
-
-### Basic Layout
-* we can put space between blocks of type within a  element using the line-height property (i.e. within a paragraph), but if we want to create space between different elements i.e. between a h1 and a p, then we need to using padding/margin
-* you can imagine each type element like a "block", that spans the width of the web browser
-* i.e. if you do h1 {background: yellow;} we can see the 'box', this describes the 'content' area i.e. https://www.w3schools.com/css/css_boxmodel.asp
-* if you set the padding i.e. padding: 20px, this will add 20px padding around the entire element on all sides. See what happens
-* if we set the margin this creates space between the edge of the box and the next element
-* margin is generally the best way to create space between elements
-* you can image padding like pillows within a box padding from the edge of the box inside, you can image margins as being like moats, they add space outside from the edge of the box
-* if you do margin: 0px 0px 20px 0px; this allows you to set different margins for the different sides of the element. this will put a 20px margin between the h1 element and the p element beneath it. the sides are top right bottom left
-* for this you will just be taking them through applying padding and margin to the type elements i.e. adding white space
-
-### For Next Week:
-* Students are to work on their web page and to come in with a basic web page for next week, it should have a title, an image (their illustration or a placeholder) and their description. They should work on the detailing of the page. They should bring in a scanned or digital copy of their illustration if they have not placed it in yet.
-
-
-## Week 5: Overview of Class for 13th of August
-
-### Finishing / Refining (first hour)
-* Help students with finishing up their web pages. Students can work on their projects more in the lead up to the portfolio review, but make sure each student has a web page up, and that it is at least a basic presentation of title, an illustration and a description
-
-### Making our Text and Image II map of Sydney (second hour)
-* Get students to bring up their web pages on screen and walk around the room and look at each others work
-* They can pick two other people's websites that they want to link up with
-* A person can only be linked to twice, we'll give you post-its. Each student writes their URL on two post its in front of their computer, if someone wants to link up to them they take the post it. If you have some post its at the end of class gather them up and give them to the next set up classes to use.
-* Then take them through how to make a link, and how to link to each other's URLs i.e. a href=
-* They are to think about how they want to do the link i.e. is it at the bottom of the page, or is it a word in their text? And what text is used for link i.e. "Another Mystery Structure" or "Nearby you might find..."
-* If a student doesn't have a link (or have two), they can go to one of the other class rooms and link up with a student there. Please also keep a couple of URLs from your class to pass on to the next set of classes.
-* If a student doesn't have a web page, just get them to work on the 1.4-page-with-copy-text in the examples folder and quickly change the text to their heading / description and add links in here.
-* Make sure you have time in class for them to upload their web page and check their links work.
