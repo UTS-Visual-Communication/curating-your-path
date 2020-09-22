@@ -1,7 +1,7 @@
 @meta: \
 README.md \
 @created: 22/09/2020 10:23 \
-@updated: 22/09/2020 15:45 \
+@updated: 22/09/2020 15:47 \
 @tags: #t&i2 #curating-your-path
 
 
@@ -78,12 +78,12 @@ I will be updating these slightly so check you have the latest version before cl
 * If they image is too large they may need to size the image in Photoshop. There is a link to this quick tutorial on how to do this on UTSOnline > Web Task Tutorials (https://www.taralesher.com/blog/exporting-photoshop-images-for-web)
 * Main thing to pay attention to is the WIDTH and HEIGHT of the image in pixels
 * Go through each of the tags h1 - h6 is the hierarchy of headings, with h1 the most semantically
-* If time get them to open up 1.3-basic-visual-heirachy. HTML tage are semantic, we can see how the different tags denote what types of content the text is and creates a semantic hierarchy of information. The browser also does a basic stylised interpretation of this i.e. headings a bold and of different sizes and paragraph text is regular weight.
-* We have also given them the basic file they will be working from (1.4-page-with-copy-text).
+* If time get them to open up 1.1.3-basic-visual-heirachy. HTML tage are semantic, we can see how the different tags denote what types of content the text is and creates a semantic hierarchy of information. The browser also does a basic stylised interpretation of this i.e. headings a bold and of different sizes and paragraph text is regular weight.
+* We have also given them the basic file they will be working from (1.1.4-page-with-copy-text).
 * They should now spend some time adding typographic heirachy to 1.1.4-page-with-copy-text
 
 ### CSS with focus on typography
-* see session.2 > 2.1-basic-text-styling, this file  shows students how they can use css to control the style of the type
+* see 1.2.1-basic-text-styling, this file  shows students how they can use css to control the style of the type
 * we style our webpages using CSS, cascading style sheet. CSS = Style. HTML = Content.
 * we reference an external stylesheet, a CSS file (show them CSS link, and get them to open up the CSS file in the HTML editor)
 * take them through how to attach a style to a HTML element i.e. a h1 element
@@ -115,4 +115,5 @@ I will be updating these slightly so check you have the latest version before cl
 * save the file and refresh their version so they can see if their Google font has loaded
 * you can also see example 2.2-web-fonts-example
 
-### For Next Week:
+### First Folio Page:
+* They should use 1.2.3-basic-layout to create their first folio page. This can be started in class and worked on between classes. 
