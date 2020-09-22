@@ -1,7 +1,7 @@
 @meta: \
 README.md \
 @created: 22/09/2020 10:23 \
-@updated: 22/09/2020 15:51 \
+@updated: 22/09/2020 16:00 \
 @tags: #t&i2 #curating-your-path
 
 
@@ -97,6 +97,9 @@ I will be updating these slightly so check you have the latest version before cl
 
 
 ### How to use web fonts
+
+**If you are running low on time, leave this bit out and I will make a video. Its important to get them started on the final task (below)**
+
 * what if we want to use fonts that aren't  system fonts?
 * then we can use fonts hosted by someone else or host fonts on our server
 * for example typekit has web fonts you can use, but you need to pay for them
