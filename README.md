@@ -1,7 +1,7 @@
 @meta: \
 README.md \
 @created: 22/09/2020 10:23 \
-@updated: 22/09/2020 16:00 \
+@updated: 22/09/2020 16:01 \
 @tags: #t&i2 #curating-your-path
 
 
@@ -33,7 +33,7 @@ These short lectures could also be worthwhile watching over the weeks as well ht
 
 ### Download these files first. These are the files that students will be working with in class
 I will be updating these slightly so check you have the latest version before class (no major changes just tidy and comments)
-*https://uts-visual-communication.github.io/curating-your-path/session1-code.zip
+* https://uts-visual-communication.github.io/curating-your-path/session1-code.zip
 
 ### The main site for you to visit and share with the students is here
 * https://uts-visual-communication.github.io/curating-your-path/
