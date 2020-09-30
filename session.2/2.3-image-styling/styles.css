@@ -1,0 +1,60 @@
+/* comments in css are donw like this */
+/* uncomment the properties below to see how they effect the text in the html file */
+/* then try them in combinations and altering their values */
+
+/* the following will effect all h1 elements in your html */
+
+img{
+  width: 300px;
+  /* width: 50%; */
+  margin: 40px;;
+  float: right; 
+  /* float: left; */
+  /* border-radius: 50%; */
+  /* border-radius: 10px; */
+  
+  /* this css code block will center your image */
+  /* try it witht the float property above commented out */
+  
+  /*
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  */
+  
+  /* checkout https://www.w3schools.com/css/css3_images.asp for more image styling options */
+}
+
+div{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  /* we use the google font specified font family */
+  font-family: 'Work Sans', sans-serif;
+  color: #000000; /* you can use the adobe color wheel to get the values of "HEX" colors */
+  font-size: 80px;
+}
+
+
+
+/* these styles will effect links */
+a{
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+/* and this will effect the paragraph 'p' elements */
+p{
+  /* text-indent: 35px; */
+  font-size: 20px;
+  color: #888888;
+  
+  /* we can also set the width of a box. Next week we will look briefly at moving each box around in relation to one another */
+  width: 300px;
+  
+  margin: 0px 0px 20px 40px;
+}

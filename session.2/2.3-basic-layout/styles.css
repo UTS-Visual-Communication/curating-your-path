@@ -1,0 +1,50 @@
+/* comments in css are donw like this */
+/* uncomment the properties below to see how they effect the text in the html file */
+/* then try them in combinations and altering their values */
+
+/* the following will effect all h1 elements in your html */
+
+h1{
+  /* we use the google font specified font family */
+  font-family: 'Montserrat', sans-serif;
+  color: #ff0000; /* you can use the adobe color wheel to get the values of "HEX" colors */
+  background: #00ffff;
+}
+
+/* these style properties will only effect h2 elements */
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #0000ff;
+  font-size: 30px;
+  
+  background: #00ffff;
+  
+  /* the following 3 properties make up what is called the box model */
+  /* change the calues to get a feel for what each does and how it changes the elements layout */
+  
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+  
+  /* and use these properties to style the border itself */
+  border-style: solid;
+  border-color: #00ff00;
+}
+
+/* these styles will effect links */
+a{
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+/* and this will effect the paragraph 'p' elements */
+p{
+  /* text-indent: 35px; */
+  font-size: 20px;
+  color: #888888;
+  
+  /* we can also set the width of a box. Next week we will look briefly at moving each box around in relation to one another */
+  width: 300px;
+  
+  margin: 0px 0px 20px 40px;
+}

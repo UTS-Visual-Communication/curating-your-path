@@ -1,0 +1,31 @@
+/* comments in css are donw like this */
+/* uncomment the properties below to see how they effect the text in the html file */
+/* then try them in combinations and altering their values */
+
+/* the following will effect all h1 elements in your html */
+
+h1{
+  /* we use the google font specified font family */
+  font-family: 'Montserrat', sans-serif;
+  color: #ff0000; /* you can use the adobe color wheel to get the values of "HEX" colors */
+}
+
+/* these style properties will only effect h2 elements */
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #0000ff;
+  font-size: 30px;
+}
+
+/* these styles will effect links */
+a{
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+/* and this will effect the paragraph 'p' elements */
+p{
+  /* text-indent: 35px; */
+  font-size: 25px;
+  color: #888888;
+}
