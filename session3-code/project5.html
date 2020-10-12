@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<!-- this is the base html file for a layout for a single project page -->
+	<!-- it uses simpleGrid as an underlying responsive grid over 12 columns -->
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+		<!-- change the title here to suite the project you are showcasing -->
+		<title>Andrew Burrell: Layered Horizons</title>
+
+		<!-- change the following if you are using a different google fonts combination -->
+		<!-- here we are using Open Sans & Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+		<!-- this is a link the the stylesheet -->
+		<!-- the style sheet is also commented where you could make changes -->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<!-- the container must surround all of the content within your grid -->
+    <div class="container">
+
+			<!-- each set of columns (adding up to 12) must be in a row -->
+			<div class="row">
+
+				<!-- define columns using a class="col-x" where x is between 1 & 12 -->
+				<!-- the total of all col-x in a row must equal 12 -->
+				<!-- our first row contains a colum of full witdh of 12 -->
+				<!-- it will contain a title and a hero image -->
+				<div class = "col-12">
+					<!-- this is our title for our website, we will keep it the same on every page-->
+					<!-- it is a H2, as the most iportant heading is the title of the project itself -->
+					<a href="index.html"><h2 class="center">Andrew Burrell—Designer of Virtual Environments</h2></a>
+
+					<!-- this is the hero image -->
+					<img src="img/hero.png">
+
+					<!-- title of project -->
+					<h1>PROJECT 5</h1>
+				</div> <!-- closing col-12 DIV -->
+			</div> <!-- closing row DIV -->
+
+			<!-- we will now add a new row and some columns with content -->
+			<div class="row">
+
+				<div class="col-4">
+					<!-- a sub heading -->
+					<p><b>A design research and digital humanities project that brings together disparate data sets from linguistics, anthropology and archeology - within virtual reality.</b></p>
+					<!-- a short paragraph of text -->
+					<p>A project in collaboration with Rachel Hendery</p>
+				</div> <!-- closing col-4 DIV -->
+
+				<div class="col-8">
+					<!-- a descriptive paragraph -->
+					<p>Layered Horizons, a Virtual Reality (VR) experience we have developed for use in an ARC-funded research project, Waves of Words: Mapping and Modelling Australia’s Pacific Past. This platform allows users to connect different geospatial datasets (for our purposes, from the humanities and social sciences) into layers that can then be explored by the use of natural gesture and body movement. This kind of interaction design in VR takes full advantage of the media’s affordances, without relying on metaphors from other interactive media, yet being familiar enough as to engender intuitive and meaningful use. </p>
+				</div> <!-- closing col-8 DIV -->
+			</div> <!-- closing row DIV -->
+
+			<!-- we will now add a new row and some columns with content -->
+			<!-- this time we have a set of 3 images -->
+			<!-- don't forget the image alt attributes -->
+			<div class="row">
+				<div class="col-4">
+					<!-- the image is linked to itself, so you can open up a larger version.-->
+					<!-- you could also make your another html page with the image on it to link to -->
+					<a href="img/layered-horizons-1.jpg">
+						<img src="img/layered-horizons-1.jpg" alt="compter graphic showing hand as interface">
+					</a>
+				</div> <!-- closing col-4 DIV -->
+
+				<div class="col-4">
+					<a href="img/layered-horizons-2.jpg">
+						<img src="img/layered-horizons-2.jpg" alt="compter graphic showing hand pointing">
+					</a>
+				</div> <!-- closing col-4 DIV -->
+
+				<div class="col-4">
+					<a href="img/layered-horizons-3.jpg">
+						<img src="img/layered-horizons-3.jpg" alt="person in VR headset pointing with a finger">
+					</a>
+				</div> <!-- closing col-4 DIV -->
+			</div> <!-- closing row DIV -->
+
+			<!-- this is a footer row, we will keep it the same on every page -->
+			<div class="row">
+				<div class = "col-12">
+					<p class="center">Andrew Burrell 2020</p>
+				</div> <!-- closing col-12 DIV -->
+			</div> <!-- closing row DIV -->
+
+    </div> <!-- closing container DIV -->
+  </body>
+</html>
